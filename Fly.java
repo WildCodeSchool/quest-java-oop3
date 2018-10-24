@@ -7,4 +7,8 @@ public interface Fly {
     int descend(int meters);
 
     void land();
+
+    default void glide() {
+        System.out.println("It glides into the air.");
+    }
 }

@@ -15,6 +15,7 @@ public class Nature {
         eyeCherry.takeOff();
         eyeCherry.ascend(120);
         eyeCherry.ascend(30);
+        eyeCherry.glide();
         eyeCherry.descend(140);
         eyeCherry.land();
         eyeCherry.descend(9);
