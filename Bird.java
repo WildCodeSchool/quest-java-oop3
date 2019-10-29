@@ -1,16 +1,16 @@
 public abstract class Bird {
   
-    // attributs  
+    // attributes  
     private String name;  
     private int age;
   
-    // constructeurs  
+    // constructors  
     public Bird(String name) {  
         this.name = name;  
         this.age = 0;  
     }  
   
-    // accesseurs et mutateurs  
+    // accessors and mutators  
     public String getName() {  
         return this.name;  
     }  
