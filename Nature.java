@@ -12,7 +12,7 @@ public class Nature {
         pingou.getOut();
 
         Eagle eyeCherry = new Eagle("Eye Cherry");
-        // TODO : décommente le code suivant afin de le tester
+        // TODO : uncomments the following code in order to test it
         /*
         eyeCherry.takeOff();
         eyeCherry.ascend(120);
