@@ -10,7 +10,7 @@ public abstract class Bird {
         this.age = 0;  
     }  
   
-    // accessors and mutators  
+    // getters and setters
     public String getName() {  
         return this.name;  
     }  
