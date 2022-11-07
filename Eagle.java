@@ -25,33 +25,28 @@ public class Eagle extends Bird implements Fly {
     }
 
     @Override
-    public String takeOff() {
+    public void takeOff() {
         System.out.println(name + " takes off in the sky");
-        return name + " takes off in the sky";
     }
 
     @Override
-    public String ascend(int meters) {
+    public void ascend(int meters) {
         System.out.println(name + " flies upward, altitude : " + meters + "m");
-        return name + " flies upward, altitude : " + meters + "m";
     }
 
     @Override
-    public String descend(int meters) {
+    public void descend(int meters) {
         System.out.println(name + " flies downward, altitude : " + meters + "m");
-        return name + " flies downward, altitude : " + meters + "m";
     }
 
     @Override
-    public String glide() {
+    public void glide() {
         System.out.println("It glides into the air.");
-        return "It glides into the air.";
     }
 
     @Override
-    public String land() {
+    public void land() {
         System.out.println(name + " lands on the ground.");
-        return name + " lands on the ground.";
         
     }
 }

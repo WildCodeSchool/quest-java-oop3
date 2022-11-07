@@ -1,11 +1,11 @@
 public interface Fly  {
-    String takeOff();
+    void takeOff();
 
-    String ascend(int meters);
+    void ascend(int meters);
 
-    String descend(int meters);
+    void descend(int meters);
 
-    String glide();
+    void glide();
 
-    String land();
+    void land();
 }
