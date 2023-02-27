@@ -27,7 +27,6 @@ public class Eagle extends Bird implements Fly {
         System.out.println(this.getName() + " takes off in the sky.");
     }
 
-    int alt = 0;
 
     @Override
     public void ascend(int altitude){
