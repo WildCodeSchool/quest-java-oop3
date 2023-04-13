@@ -35,6 +35,7 @@ public class Penguin extends Bird implements Swim {
 
     /**
      * swim downward
+     * 
      * @param meters depths increase
      * @return depth
      */
@@ -49,6 +50,7 @@ public class Penguin extends Bird implements Swim {
 
     /**
      * swin upward
+     * 
      * @param meters depths decrease
      * @return depth
      */
@@ -72,4 +74,11 @@ public class Penguin extends Bird implements Swim {
             System.out.printf("%s is too deep, it can't get out.%n", this.getName());
         }
     }
+
+    @Override
+    public void takeOff() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'takeOff'");
+    }
+
 }
